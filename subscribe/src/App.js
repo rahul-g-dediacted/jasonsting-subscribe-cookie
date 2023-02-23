@@ -1,9 +1,12 @@
 import './App.css';
-import Login from "../src/component/Login"
+import SubscribeForm from './SubscribeForm';
+// import SubscribeForm from "../src/component/SubscribeForm"
 function App() {
   return (
     <div className="App">
-     <Login />
+      Test
+     {/* <SubscribeForm /> */}
+     <SubscribeForm />
     </div>
   );
 }
