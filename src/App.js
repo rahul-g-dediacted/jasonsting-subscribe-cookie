@@ -4,7 +4,7 @@ import SubscribeForm from './SubscribeForm';
 function App() {
   return (
     <div className="App">
-      Test
+      
      {/* <SubscribeForm /> */}
      <SubscribeForm />
     </div>

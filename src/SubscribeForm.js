@@ -83,7 +83,7 @@ function SubscribeForm(){
     useEffect(() => {
         let cookieVal = Cookies.get("fullName");
         if(Cookies.get("fullName") !== undefined){
-            setSubscribed(true);
+            // setSubscribed(true);
             subscribeDispatch(
                 {
                     type: "isSubscribed",
